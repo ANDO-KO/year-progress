@@ -114,7 +114,7 @@ function render() {
   // 補助情報
   document.getElementById('currentTime').textContent = data.currentTime;
   document.getElementById('currentYear').textContent = data.currentYear;
-  document.getElementById('leapYear').textContent = data.isLeap ? 'Yes' : 'No';
+  document.getElementById('leapYear').textContent = data.isLeap ? 'Yes' : '今年はちがうよ！';
 }
 
 // 初回実行
